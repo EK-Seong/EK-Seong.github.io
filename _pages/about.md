@@ -2,24 +2,44 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Department of Economics, SNU
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently in progress of the Ph.D program at the Department of Economics, Seoul National University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Research Interests**
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My main research interest is identification and inference for a causal parameter with instrumental variables.
+
+**Education**
+
+B.E., Economics, Chungnam National University, 2015—2021.
+
+---
+
+#### Research
+**Work in Progress**
+
+- <strong> Are the Bank of Korea's Inflation Forecasts Biased Toward the Target? </strong> [[paper]](https://drive.google.com/file/d/1P12GPzzLeo1tafaUrtI2I6cD1W6k9Y5K/view)[[code]](https://github.com/EK-Seong/BoK_Forecast)[[webpage]](https://bok-inflation-forecast.streamlit.app/) with [Seojeong Lee](https://sites.google.com/site/misspecifiedjay), December 2024
+
+---
+
+#### Presentations
+**2025**
+
+- The Korean Economic Association 2025 Economics Joint Conference, February
+
+---
