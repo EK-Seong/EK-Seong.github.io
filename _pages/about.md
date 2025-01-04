@@ -6,7 +6,7 @@ subtitle: Department of Economics, SNU
 
 profile:
   align: right
-  image: photo.jpg
+  image: photo.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room m109, Bldg 16</p>
