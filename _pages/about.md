@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: Department of Economics, SNU
+subtitle: Ph.D. Student, Department of Economics, SNU
 
 profile:
   align: right
@@ -26,7 +26,7 @@ My main research interest is identification and inference for a causal parameter
 
 **Education**
 
-B.E., Economics, Chungnam National University, 2015—2021.
+B.Ec., Chungnam National University, 2015—2021.
 
 
 
