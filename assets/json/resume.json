@@ -21,7 +21,7 @@
       "institution": "Chungnam National University, Daejeon, Korea",
       "location": "Daejeon, Korea",
       "area": "Economics",
-      "studyType": "B.Ec.",
+      "studyType": "Bachelor in Economics",
       "startDate": "2015",
       "endDate": "2021"
     }
@@ -76,7 +76,7 @@
   "projects": [
     {
       "name": "Fiscal Multiplier in Korea - A Local Projection - IV Approach",
-      "summary": "This paper estimates the fiscal multiplier in Korea using a local projection - IV approach.",
+      "summary": "We estimate the fiscal multiplier in Korea using a local projection IV approach.",
       "highlights": ["Fiscal Multiplier", "Local Projection", "IV"],
       "startDate": "2023",
       "endDate": "",
@@ -84,7 +84,7 @@
     },
     {
       "name": "Evaluation of the Bank of Korea's Inflation Forecast",
-      "summary": "This paper evaluates the Bank of Korea's inflation forecast.",
+      "summary": "We evaluate the Bank of Korea's inflation forecast.",
       "highlights": ["Inflation Forecast", "Forecast Evaluation","Inflation Targeting"],
       "startDate": "2023",
       "endDate": "2024",
