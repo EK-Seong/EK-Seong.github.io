@@ -22,7 +22,7 @@ I am currently in progress of the Ph.D program at the Department of Economics, S
 
 **Research Interests**
 
-My main research interest is identification and inference for a causal parameter with instrumental variables.
+My main research interest is estimation and inference for causal parameters, identified by instrumental variables.
 
 **Education**
 
@@ -34,4 +34,5 @@ B.Ec., Chungnam National University, 2015—2021.
 - **2025**
 
   - The Korean Economic Association 2025 Economics Joint Conference, February
+  - The 19th International Symposium on Econometric Theory and Applications, June
 
