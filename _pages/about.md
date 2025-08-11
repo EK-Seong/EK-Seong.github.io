@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: Ph.D. Student, Department of Economics, SNU
+subtitle: Ph.D. candidate, Department of Economics, Seoul National University
 
 profile:
   align: right
@@ -18,21 +18,24 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently in progress of the Ph.D program at the Department of Economics, Seoul National University.
+I am Eunkyu Seong (“Un-kyoo Sung”; 성은규, 成恩圭), a Ph.D. candidate in Economics at Seoul National University. My research interests lie in econometrics, with a particular focus on weak-instrument robust inference methods and their applications to local projection IV estimation in macroeconomic settings.
+
 
 **Research Interests**
-
-My main research interest is estimation and inference for causal parameters, identified by instrumental variables.
-
-**Education**
-
-B.Ec., Chungnam National University, 2015—2021.
+- Econometrics
+- Weak-instrument robust inference
+- Local projection IV
+- Dynamic causal effects
 
 
-
-**Presentations**
+**Presentations and Talks**
 - **2025**
 
-  - The Korean Economic Association 2025 Economics Joint Conference, February
-  - The 19th International Symposium on Econometric Theory and Applications, June
+  - Workshop on Recent Advances in Econometrics, Seoul National University, Korea (scheduled)
+  - Invited Seminar, University of Sydney, Australia <a href="https://sites.google.com/view/econometricsusyd/home" target="_blank">link<\a>
+  - The 19th International Symposium on Econometric Theory and Applications, University of Macau, Macau <a href="https://fba.um.edu.mo/seta2025/" target="_blank">link<\a>
+  - The Korean Economic Association Joint Conference 2025, Hannam University, Korea
+
+-  **2024**
+   - Econometrics Workshop, Seoul National University, Korea
 
