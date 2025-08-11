@@ -6,7 +6,7 @@
     "email": "uocup96@snu.ac.kr",
     "phone": "",
     "url": "https://ek-seong.github.io",
-    "summary": "I am a Phd student in the Department of Economics at Seoul National University. My research interests are in the fields of applied econometrics.",
+    "summary": "I am a Phd candidate in economics at Seoul National University.",
     "location": {
       "address": "Seoul National University",
       "postalCode": "08826",
@@ -30,8 +30,8 @@
   "publications": [
     {
       "name": "Are the Bank of Korea's Inflation Forecasts biased toward the target?",
-      "publisher": "Work in progress",
-      "releaseDate": "December, 2024",
+      "publisher": "Working Paper",
+      "releaseDate": "July, 2025",
       "url": "",
       "summary": ""
     }
@@ -67,9 +67,11 @@
       "name": "Applied Econometrics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Insturemental Variable",
-        "Local Average Treatment Effect",
-        "Weak Instrument Robust Inference"
+        "Weak Instrument Robust Inference",
+        "Local Projection IV",
+        "Dynamic Causal Effects",
+        "Fiscal Multiplier",
+        "Forecast Evaluation"
       ]
     }
   ],
