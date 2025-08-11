@@ -32,8 +32,8 @@ I am Eunkyu Seong (“Un-kyoo Sung”; 성은규, 成恩圭), a Ph.D. candidate 
 - **2025**
 
   - Workshop on Recent Advances in Econometrics, Seoul National University, Korea (scheduled)
-  - Invited Seminar, University of Sydney, Australia <a href="https://sites.google.com/view/econometricsusyd/home" target="_blank">link<\a>
-  - The 19th International Symposium on Econometric Theory and Applications, University of Macau, Macau <a href="https://fba.um.edu.mo/seta2025/" target="_blank">link<\a>
+  - Invited Seminar, University of Sydney, Australia <a href="https://sites.google.com/view/econometricsusyd/home" target="_blank">[link]</a>
+  - The 19th International Symposium on Econometric Theory and Applications, University of Macau, Macau <a href="https://fba.um.edu.mo/seta2025/" target="_blank">[link]</a>
   - The Korean Economic Association Joint Conference 2025, Hannam University, Korea
 
 -  **2024**
