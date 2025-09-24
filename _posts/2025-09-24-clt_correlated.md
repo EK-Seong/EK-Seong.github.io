@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: post
 title: CLT for a correlated sequence
 date: 2025-09-24
 featured: true
