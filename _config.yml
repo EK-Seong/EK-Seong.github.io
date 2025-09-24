@@ -88,7 +88,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Metirics Notes # blog_name will be displayed in your blog page
-blog_description: a whiteboard for econometrics # blog_description will be displayed in your blog page
+blog_description: Learning econometrics # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
