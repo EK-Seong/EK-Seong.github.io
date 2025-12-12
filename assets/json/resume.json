@@ -67,30 +67,9 @@
       "name": "Applied Econometrics",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Weak Instrument Robust Inference",
-        "Local Projection IV",
-        "Dynamic Causal Effects",
-        "Fiscal Multiplier",
-        "Forecast Evaluation"
+        "Weak Instrument",
+        "Local Projection"
       ]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Fiscal Multiplier in Korea - A Local Projection - IV Approach",
-      "summary": "We estimate the fiscal multiplier in Korea using a local projection IV approach.",
-      "highlights": ["Fiscal Multiplier", "Local Projection", "IV"],
-      "startDate": "2023",
-      "endDate": "",
-      "url": ""
-    },
-    {
-      "name": "Evaluation of the Bank of Korea's Inflation Forecast",
-      "summary": "We evaluate the Bank of Korea's inflation forecast.",
-      "highlights": ["Inflation Forecast", "Forecast Evaluation","Inflation Targeting"],
-      "startDate": "2023",
-      "endDate": "2024",
-      "url": "https://github.com/EK-Seong/BoK_Forecast"
     }
   ]
 }
