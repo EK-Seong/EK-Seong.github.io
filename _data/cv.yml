@@ -19,7 +19,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Econometrics.
+    - title: Econometrics
       items:
-        - Weak Instrument.
+        - Weak Instrument
         - Local Projection
