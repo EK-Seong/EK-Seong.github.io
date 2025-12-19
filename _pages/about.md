@@ -7,9 +7,9 @@ subtitle: Ph.D. candidate, Department of Economics, Seoul National University
 profile:
   align: right
   image: IMG_9301.JPG
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Room m109, Bldg 16</p>
+    <p>Room 319, Bldg 223</p>
     <p>1 Gwanak-ro, Gwanak-gu</p>
     <p>Seoul 08826, Republic of Korea</p>
 
@@ -30,9 +30,9 @@ I am Eunkyu Seong (“Un-kyoo Sung”; 성은규, 成恩圭), a Ph.D. candidate 
 **Presentations and Talks**
 - **2025**
   - Australasian Econometric Conference of the Association of Econometricians (AE2) <a href="https://event.mq.edu.au/inaugural-ae2-conference/" target="_blank">[website]</a>, Macquarie University, Australia
-  - Workshop on Recent Advances in Econometrics, Seoul National University, Korea <a href="https://drive.google.com/file/d/15KTqWUS2jW1a2Pvze4sqK5RCDVPVE--J/view" target="_blank">[link]</a>
-  - Invited Seminar, University of Sydney, Australia <a href="https://sites.google.com/view/econometricsusyd/econometrics-seminars?authuser=0" target="_blank">[link]</a>
-  - The 19th International Symposium on Econometric Theory and Applications, University of Macau, Macau <a href="https://fba.um.edu.mo/seta2025/" target="_blank">[link]</a>
+  - Workshop on Recent Advances in Econometrics, Seoul National University, Korea <a href="https://drive.google.com/file/d/15KTqWUS2jW1a2Pvze4sqK5RCDVPVE--J/view" target="_blank">[program]</a>
+  - Invited Seminar, University of Sydney, Australia <a href="https://sites.google.com/view/econometricsusyd/econometrics-seminars?authuser=0" target="_blank">[website]</a>
+  - The 19th International Symposium on Econometric Theory and Applications, University of Macau, Macau <a href="https://fba.um.edu.mo/seta2025/" target="_blank">[website]</a>
   - The Korean Economic Association Joint Conference 2025, Hannam University, Korea
 
 -  **2024**
