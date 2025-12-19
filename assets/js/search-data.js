@@ -74,6 +74,13 @@ ninja.data = [{
           window.open("/feed.xml", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=djaDDCgAAAAJ", "_blank");
+        },
+      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
