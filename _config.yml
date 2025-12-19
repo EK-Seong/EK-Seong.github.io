@@ -631,6 +631,7 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+cv_source: auto # options: auto, yaml, json. Use yaml to force _data/cv.yml
 jsonresume:
   - basics
   - work

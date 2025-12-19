@@ -284,6 +284,8 @@ There are currently 2 different ways of generating the CV page content. The firs
 
 What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/cv.yml](_data/cv.yml) as fallback.
 
+If you want to use the [\_data/cv.yml](_data/cv.yml) file as the source of your CV even when `assets/json/resume.json` exists, set `cv_source: yaml` in [\_config.yml](_config.yml). Setting `cv_source: json` forces the JSON file, while leaving it as `auto` keeps the previous fallback behaviour.
+
 [![CV Preview](readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
 
 ---

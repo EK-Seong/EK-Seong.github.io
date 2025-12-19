@@ -1,9 +1,10 @@
 ---
 layout: default
 permalink: /blog/
-title: BLOG
+title: NOTES
 nav: true
 nav_order: 1
+nav_redirect: https://ek-seong.github.io/notes/
 pagination:
   enabled: true
   collection: posts

@@ -30,10 +30,19 @@
   "publications": [
     {
       "name": "Are the Bank of Korea's Inflation Forecasts biased toward the target?",
-      "publisher": "Working Paper",
-      "releaseDate": "July, 2025",
+      "publisher": "Wiley Online Library",
+      "releaseDate": "Decemeber, 2025",
       "url": "",
-      "summary": ""
+      "summary": "",
+      "journal": "Journal of Forecasting",
+      "authors": [
+        {
+          "name": "Eunkyu Seong"
+        },
+        {
+          "name": "Seojeong Lee"
+        }
+      ]
     }
   ],
 
