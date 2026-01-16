@@ -18,16 +18,16 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Eunkyu Seong (“Un-kyoo Sung”; 성은규, 成恩圭), a Ph.D. candidate in Economics at Seoul National University. My research interest lies in causal inference and instrumental variable regression with a particular focus on local projection.
-
+I am Eunkyu Seong (“Un-kyoo Sung”; 성은규, 成恩圭), a Ph.D. candidate in Economics at Seoul National University. I study econometric methods for causal inference with instrumental variables (IV). My research focuses on IV-based approaches in time-series and macroeconometric setting, with particular emphasis on estimating for impulse response function via local projections.
 
 **Research Interests**
-- Econometrics
-- Weak instrument
+- Instrumental Variable
 - Local projection
 
 
 **Presentations and Talks**
+- **2026**
+  - The Korean Economic Association Joint Conference 2026 (Scheduled), Chungang University, Korea
 - **2025**
   - Australasian Econometric Conference of the Association of Econometricians (AE2) <a href="https://event.mq.edu.au/inaugural-ae2-conference/" target="_blank">[website]</a>, Macquarie University, Australia
   - Workshop on Recent Advances in Econometrics, Seoul National University, Korea <a href="https://drive.google.com/file/d/15KTqWUS2jW1a2Pvze4sqK5RCDVPVE--J/view" target="_blank">[program]</a>
