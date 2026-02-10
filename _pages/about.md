@@ -18,22 +18,22 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Eunkyu Seong (“Un-kyoo Sung”; 성은규, 成恩圭), a Ph.D. candidate in Economics at Seoul National University. I study econometric methods for causal inference with instrumental variables (IV). My research focuses on IV-based approaches in time-series and macroeconometric setting, with particular emphasis on estimating for impulse response function via local projections.
+I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economics at Seoul National University. I study econometric methods for causal inference with instrumental variables (IV). My research focuses on IV-based approaches in time-series and macroeconometric setting, with particular emphasis on estimating for impulse response function via local projections.
 
 **Research Interests**
 - Instrumental Variable
-- Local projection
+- Local Projection
 
 
 **Presentations and Talks**
 - **2026**
-  - The Korean Economic Association Joint Conference 2026 (Scheduled), Chungang University, Korea
+  - 2026 Korea's Allied Economic Associations Annual Meeting <a href="../assets/pdf/2026 Conference Progrma_20260205.pdf" target="_blank">[program]</a>, Chungang University, Korea
 - **2025**
   - Australasian Econometric Conference of the Association of Econometricians (AE2) <a href="https://event.mq.edu.au/inaugural-ae2-conference/" target="_blank">[website]</a>, Macquarie University, Australia
   - Workshop on Recent Advances in Econometrics, Seoul National University, Korea <a href="https://drive.google.com/file/d/15KTqWUS2jW1a2Pvze4sqK5RCDVPVE--J/view" target="_blank">[program]</a>
   - Invited Seminar, University of Sydney, Australia <a href="https://sites.google.com/view/econometricsusyd/econometrics-seminars?authuser=0" target="_blank">[website]</a>
   - The 19th International Symposium on Econometric Theory and Applications, University of Macau, Macau <a href="https://fba.um.edu.mo/seta2025/" target="_blank">[website]</a>
-  - The Korean Economic Association Joint Conference 2025, Hannam University, Korea
+  - 2025 Korea's Allied Economic Associations Annual Meeting, Hannam University, Korea
 
 -  **2024**
    - Econometrics Workshop, Seoul National University, Korea
