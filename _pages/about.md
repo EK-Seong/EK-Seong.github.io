@@ -27,7 +27,7 @@ I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economic
 
 **Presentations and Talks**
 - **2026**
-  - 2026 Korea's Allied Economic Associations Annual Meeting <a href="https://github.com/EK-Seong/EK-Seong.github.io/assets/pdf/2026 Conference Progrma_20260205.pdf" target="_blank">[program]</a>, Chungang University, Korea
+  - 2026 Korea's Allied Economic Associations Annual Meeting <a href="https://drive.google.com/file/d/1PVAg7-LcXlJfWBE4SL7EyecnYjsEYjoZ/view?usp=sharing" target="_blank">[program]</a>, Chungang University, Korea
 - **2025**
   - Australasian Econometric Conference of the Association of Econometricians (AE2) <a href="https://event.mq.edu.au/inaugural-ae2-conference/" target="_blank">[website]</a>, Macquarie University, Australia
   - Workshop on Recent Advances in Econometrics, Seoul National University, Korea <a href="https://drive.google.com/file/d/15KTqWUS2jW1a2Pvze4sqK5RCDVPVE--J/view" target="_blank">[program]</a>
