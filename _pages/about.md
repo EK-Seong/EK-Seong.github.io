@@ -7,7 +7,7 @@ subtitle: Ph.D. candidate, Department of Economics, Seoul National University
 profile:
   align: right
   image: IMG_9301.JPG
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Room 319, Bldg 223</p>
     <p>1 Gwanak-ro, Gwanak-gu</p>
