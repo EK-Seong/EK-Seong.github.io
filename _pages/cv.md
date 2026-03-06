@@ -8,3 +8,4 @@ cv_pdf: cv_eunkyu_seong.pdf  # you can also use external links here
 description: This is the curriculum vitae of Eunkyu Seong.
 toc:
   sidebar: left
+---
