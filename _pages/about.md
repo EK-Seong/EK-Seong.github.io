@@ -20,6 +20,9 @@ social: true # includes social icons at the bottom of the page
 
 I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economics at Seoul National University. I study econometric methods for causal inference with instrumental variables (IV). My research focuses on IV-based approaches in time-series and macroeconometric setting, with particular emphasis on estimating for impulse response function via local projections.
 
+You can find my full CV here: [Web CV](/cv/) · [PDF](/assets/pdf/cv_eunkyu_seong.pdf).
+
+
 **Research Interests**
 - Instrumental Variable
 - Local Projection
