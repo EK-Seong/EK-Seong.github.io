@@ -14,7 +14,7 @@ profile:
     <p>Seoul 08826, Republic of Korea</p>
 
 news: false # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -23,6 +23,10 @@ I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economic
 **Research Interests**
 - Instrumental Variable
 - Local Projection
+
+**Research**
+{% include selected_papers.liquid %}
+
 
 
 **Presentations and Talks**
