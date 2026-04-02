@@ -5,7 +5,7 @@ permalink: /
 subtitle: Ph.D. candidate, Department of Economics, Seoul National University
 
 profile:
-  align: right
+  align: left
   image: IMG_9301.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
@@ -33,7 +33,8 @@ You can find my full CV here: [Web CV](/cv/) · [PDF](/assets/pdf/cv_eunkyu_seon
 
 
 **Presentations and Talks**
-- **2026**
+- **2026** 
+  - The 20th International Symposium on Econometric Theory and Applications (SETA 2026), University of Tokyo, Tokyo (Scheduled in June)
   - 2026 Korea's Allied Economic Associations Annual Meeting <a href="https://drive.google.com/file/d/1PVAg7-LcXlJfWBE4SL7EyecnYjsEYjoZ/view?usp=sharing" target="_blank">[program]</a>, Chungang University, Korea
 - **2025**
   - Australasian Econometric Conference of the Association of Econometricians (AE2) <a href="https://event.mq.edu.au/inaugural-ae2-conference/" target="_blank">[website]</a>, Macquarie University, Australia
