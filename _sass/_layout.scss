@@ -42,17 +42,17 @@ body.sticky-bottom-footer {
 .about-columns {
   display: flex;
   flex-wrap: nowrap;
-  gap: 2rem;
+  gap: 1rem;
   align-items: flex-start;
   margin-top: 1rem;
 
   .about-profile-col {
-    flex: 0 0 220px;
+    flex: 1;
     min-width: 0;
   }
 
   .about-content-col {
-    flex: 1;
+    flex: 2;
     min-width: 0;
   }
 
