@@ -38,6 +38,40 @@ body.sticky-bottom-footer {
   }
 }
 
+// About page two-column layout
+.about-columns {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-top: 1rem;
+
+  .about-profile-col {
+    flex: 0 0 220px;
+    min-width: 0;
+  }
+
+  .about-content-col {
+    flex: 1;
+    min-width: 0;
+  }
+
+  @media (max-width: 575px) {
+    flex-direction: column;
+
+    .about-profile-col {
+      flex: 0 0 auto;
+      width: 100%;
+      text-align: center;
+
+      img {
+        max-width: 220px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************

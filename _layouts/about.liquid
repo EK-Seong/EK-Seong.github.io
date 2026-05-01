@@ -15,9 +15,9 @@ layout: default
   </header>
 
   <article>
-    <div class="row mt-3">
-      {% if page.profile %}
-        <div class="col-sm-4 col-md-3">
+    {% if page.profile %}
+      <div class="about-columns">
+        <div class="about-profile-col">
           <div class="profile">
             {% if page.profile.image %}
               {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
@@ -37,13 +37,13 @@ layout: default
             {% endif %}
           </div>
         </div>
-        <div class="col-sm-8 col-md-9">
+        <div class="about-content-col">
           {{ content }}
         </div>
-      {% else %}
-        <div class="col-12">{{ content }}</div>
-      {% endif %}
-    </div>
+      </div>
+    {% else %}
+      <div>{{ content }}</div>
+    {% endif %}
 
     <!-- News -->
     {% if page.news and site.announcements and site.announcements.enabled %}
