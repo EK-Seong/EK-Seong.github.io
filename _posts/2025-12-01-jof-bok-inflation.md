@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Are the Bank of Korea's Inflation Forecasts Biased Toward the Target?"
-date: 2025-12-01
+date: 2025-12-10
 description: A summary of our paper published in the Journal of Forecasting (2025).
 tags: [forecasting, monetary-policy, bias, Bank-of-Korea]
 toc:
@@ -11,7 +11,7 @@ toc:
   - name: Bias Correction
 ---
 
-**Joint work with [Seojeong Lee](https://sites.google.com/site/seojeonglee/)** — *Journal of Forecasting*, December 2025. [[DOI]](https://doi.org/10.1002/for.70076)
+**Joint work with [Seojeong Lee](https://sites.google.com/site/misspecifiedjay/)** — *Journal of Forecasting*, December 2025. [[DOI]](https://doi.org/10.1002/for.70076)
 
 ---
 
