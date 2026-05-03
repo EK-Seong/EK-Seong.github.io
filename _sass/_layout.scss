@@ -38,41 +38,6 @@ body.sticky-bottom-footer {
   }
 }
 
-// About page two-column layout
-.about-columns {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 0.75rem;
-  align-items: flex-start;
-  margin-top: 1rem;
-  width: 100%;
-
-  .about-profile-col {
-    flex: 1 1 0;
-    min-width: 0;
-  }
-
-  .about-content-col {
-    flex: 2 1 0;
-    min-width: 0;
-  }
-
-  @media (max-width: 575px) {
-    flex-direction: column;
-
-    .about-profile-col {
-      flex: 0 0 auto;
-      width: 100%;
-      text-align: center;
-
-      img {
-        max-width: 280px;
-        margin: 0 auto;
-      }
-    }
-  }
-}
-
 // TODO: redefine content layout.
 
 /******************************************************************************
