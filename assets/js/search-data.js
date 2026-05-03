@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "RESEARCH",
-          description: "This is a list of publications.",
+          description: "My research focuses on time series econometrics and dynamic causal inference.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
