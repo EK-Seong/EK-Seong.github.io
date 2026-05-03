@@ -41,6 +41,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/jof-bok-inflation/";
         
       },
+    },{id: "post-clt-for-a-correlated-sequence",
+      
+        title: "CLT for a correlated sequence",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/clt_correlated/";
+        
+      },
     },{id: "news-econometrics-workshop-seoul-national-university-korea",
           title: 'Econometrics Workshop, Seoul National University, Korea',
           description: "",
@@ -61,6 +72,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-2026-korea-s-allied-economic-associations-annual-meeting-program-chungang-university-korea",
           title: '2026 Korea’s Allied Economic Associations Annual Meeting [program], Chungang University, Korea',
+          description: "",
+          section: "News",},{id: "news-snu-econometrics-brown-bag-website-seoul-national-university-seoul-scheduled-in-june",
+          title: 'SNU Econometrics Brown Bag [website], Seoul National University, Seoul (Scheduled in June)',
           description: "",
           section: "News",},{id: "news-the-20th-international-symposium-on-econometric-theory-and-applications-seta-2026-website-university-of-tokyo-tokyo-scheduled-in-june",
           title: 'The 20th International Symposium on Econometric Theory and Applications (SETA 2026) [website], University...',
