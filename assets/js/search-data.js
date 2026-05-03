@@ -30,27 +30,34 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-clt-for-a-correlated-sequence",
+        },{id: "post-are-the-bank-of-korea-39-s-inflation-forecasts-biased-toward-the-target",
       
-        title: "CLT for a correlated sequence",
+        title: "Are the Bank of Korea&#39;s Inflation Forecasts Biased Toward the Target?",
       
-      description: "",
+      description: "A summary of our paper published in the Journal of Forecasting (2025).",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/clt_correlated/";
+          window.location.href = "/blog/2025/jof-bok-inflation/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-econometrics-workshop-seoul-national-university-korea",
+          title: 'Econometrics Workshop, Seoul National University, Korea',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-2025-korea-s-allied-economic-associations-annual-meeting-hannam-university-korea",
+          title: '2025 Korea’s Allied Economic Associations Annual Meeting, Hannam University, Korea',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-the-19th-international-symposium-on-econometric-theory-and-applications-seta-2025-university-of-macau-macau-website",
+          title: 'The 19th International Symposium on Econometric Theory and Applications (SETA 2025), University of...',
+          description: "",
+          section: "News",},{id: "news-invited-seminar-university-of-sydney-australia-website",
+          title: 'Invited Seminar, University of Sydney, Australia [website]',
+          description: "",
+          section: "News",},{id: "news-workshop-on-recent-advances-in-econometrics-seoul-national-university-korea-program",
+          title: 'Workshop on Recent Advances in Econometrics, Seoul National University, Korea [program]',
+          description: "",
+          section: "News",},{id: "news-australasian-econometric-conference-of-the-association-of-econometricians-ae2-website-macquarie-university-australia",
+          title: 'Australasian Econometric Conference of the Association of Econometricians (AE2) [website], Macquarie University, Australia...',
           description: "",
           section: "News",},{id: "news-2026-korea-s-allied-economic-associations-annual-meeting-program-chungang-university-korea",
           title: '2026 Korea’s Allied Economic Associations Annual Meeting [program], Chungang University, Korea',
