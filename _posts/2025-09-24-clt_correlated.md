@@ -1,0 +1,134 @@
+---
+layout: post
+title: CLT for a correlated sequence
+date: 2025-09-24
+featured: true
+mermaid:
+  enabled: true
+  zoomable: true
+code_diff: true
+map: true
+chart:
+  chartjs: true
+  echarts: true
+  vega_lite: true
+tikzjax: true
+typograms: true
+
+
+toc:
+  - name: Proof
+    # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+
+    
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+---
+
+# Theorem 14.15 (Econometrics, B.E. Hansen 2022)
+If $u_t$ is strictly stationary with mixing coefficients $\alpha(l)$, $\mathbb Eu_t=0$, for some $r>2$, $\mathbb E||u_t||^r<\infty$ and $\sum_{l=0}^{\infty}\alpha(l)^{1-2/r}<\infty$, then $var[S_n]$ is convergent and $S_n= n^{-1/2} \sum_{t=1}^nu_t\to_d N(0,\Omega)$.
+## Proof
+By the Cramer-Wold device it is suficient to prove the result for the scalar case. Our proof method is based on a MDS approximation. The trick is to establish the relationship
+$$ u_t=e_t+Z_t-Z_{t+1}\tag{1}$$
+where $e_t$ is a strictly stationary and ergodic MDS with $\mathbb[e_t^2]=\Omega$ and $\mathbb E|Z_t|<\infty$. Defining $S_n^e=\frac{1}{\sqrt n}\sum_{t=1}^n e_t$, we have
+$$S_n=\frac{1}{\sqrt n}\sum_{t=1}^n(e_t+Z_t-Z_{t+1})=S_n^e+\frac{Z_1}{\sqrt n}-\frac{Z_{n+1}}{\sqrt n}\tag{2}$$
+The first component on the right side is asymptotically $N(0,\Omega)$ by the MDS CLT. The second and third terms are $o_p(1)$ by Markov's inequality.
+
+> $$Z_1-Z_{n+1}=\sum_{\ell=0}^\infty\mathbb E[u_{1+\ell}-u_{n+1+\ell}|\mathcal F_{t-1}]=\sum_{i=1}^n\mathbb E[u_{i}|\mathcal F_{t-1}]$$
+> $cov[S_n^e,\frac{Z_1-Z_{n+1}}{\sqrt n}]$? We don't have care about this term because we use Quadratic inequality in $L^2$.
+
+The desired relationship (1) holds as follows. Set $\mathcal F_t=\sigma(\dots,u_{t-1},u_t)$,
+$$e_t=\sum_{l=0}^\infty(\mathbb E[u_{t+l}|\mathcal F_t]-\mathbb E[u_{t+l}|\mathcal F_{t-1}])\tag{3}$$
+and
+$$Z_t=\sum_{l=0}^\infty \mathbb E[u_{t+l}|\mathcal F_{t-1}]$$
+You can verify that these definitions satisfy (1) given $\mathbb E[u_t|\mathcal F_t]=u_t$. The variable $Z_t$ has a finite expectation because by the triangle inequality, Theorem 14.13.3, and the assumptions
+$$\mathbb{E}\lvert Z_t\rvert= \mathbb{E}\Biggl\lvert \sum_{\ell=0}^{\infty} \mathbb{E}\left[u_{t+\ell}\,\middle|\, \mathcal{F}_{t-1}\right] \Biggr\rvert
+\le 6 \left(\mathbb{E}\lvert u_t\rvert^{\,r}\right)^{1/r}\sum_{\ell=0}^{\infty} \alpha(\ell)^{\,1-1/r} < \infty$$
+> By triangle inequality $\mathbb{E}\Biggl\lvert \sum_{\ell=0}^{\infty} \mathbb{E}\left[u_{t+\ell}\,\middle|\, \mathcal{F}_{t-1}\right] \Biggr\rvert \le \sum_{\ell=0}^{\infty}\mathbb{E} \Biggl\lvert \mathbb E[u_{t+\ell}|\mathcal F_{t-1}]\Biggl\rvert$ .
+> Applying Theorem 14.13.3 to each summand, we obtain the first weak inequality. 
+> We apply Theorem 14.13.3 because by assumption, $\mathbb E|u_t|^{r}<\infty$ for some $r>2$.
+
+the final inequality because $\sum_{\ell=0}^\infty \alpha(\ell)^{1-2/r}<\infty$ implies $\sum_{\ell=0}^\infty \alpha(\ell)^{1-1/r}<\infty$.
+
+The series $e_t$ in (3) has a finite expectation by the same calculation as for $Z_t$. It is a MDS since by iterated expectations
+$$\mathbb E[e_t|\mathcal F_{t-1}]=\mathbb E\biggl[\sum_{l=0}^\infty(\mathbb E[u_{t+l}|\mathcal F_t]-\mathbb E[u_{t+l}|\mathcal F_{t-1}])\biggl|\mathcal F_{t-1}\biggl]$$
+$$=\sum_{\ell=0}^\infty(\mathbb E[\mathbb[u_{t+l}|\mathcal F_t]|\mathcal F_{t-1}]-\mathbb E[\mathbb E[u_{t+\ell}|\mathcal F_{t-1}|\mathcal F_{t-1}])$$
+$$=\sum_{\ell=0}^\infty\bigg(\mathbb E\bigg[u_{t+\ell}\bigg|\mathcal F_{t-1}\bigg]-\mathbb E\bigg[u_{t+\ell}\bigg|\mathcal F_{t-1}\bigg]\bigg)=0$$
+It is strictly stationary and ergodic by Theorem 14.2 because it is a function of the history $(\dots,u_{t-1},u_t)$.
+
+The proof is completed by showing that $e_t$ has a finite variance which equals $\Omega$. The trickiest step is to show that $var[e_t]<\infty$. Since
+$$\mathbb E|S_n|\le\sqrt{var[S_n]}\to\sqrt\Omega$$
+it follows that $\mathbb E|S_n|\le2\sqrt\Omega$  for $n$ sufficiently large. 
+
+>Cauchy-Schwarz inequality: $|\mathbb E |S_n| \cdot 1|\le \sqrt{\mathbb E |S_n|^2} \sqrt{\mathbb E1^2}=\sqrt{var[S_n]}$, since $\mathbb E[S_n]=0$. Or
+>Jensen's Inequality: $\mathbb E[\sqrt{S_n^2}] \le \sqrt{\mathbb E[S_n^2]}$, since $f(x)=\sqrt x$ is concave.
+
+Using (2) and $\mathbb E|Z_t|<\infty$, for $n$ sufficiently large,
+$$\mathbb E|S_n^e|\le\mathbb E|S_n|+\frac{\mathbb E|Z_1|}{\sqrt n}+\frac{\mathbb E|Z_{n+1}|}{\sqrt n}\le 3\sqrt\Omega\tag{4}$$
+Now define $e_{Bt}=e_t 1\{|e_t|\le B\}-\mathbb E[e_t1\{|e_t|\le B\}|\mathcal F_{t-1}]$ which is a bounded MDS. By Theorem 14.11 (MDS CLT), $\frac{1}{\sqrt n}e_{Bt}\to_d N(0,\sigma_B^2)$ where $\sigma_B^2=\mathbb E[e_{Bt}^2]$. Since the sequence is uniformly integrable, this implies
+$$\mathbb E\bigg|\frac{1}{\sqrt n}\sum_{t=1}^n e_{Bt}\bigg|\to\mathbb E|N(0,\sigma_B^2)|=\sqrt{\frac{2}{\pi}}\sigma_B\tag{5}$$
+using $\mathbb E|N(0,1)|=2/\pi$. 
+
+>Def. $\{X_n\}$ is uniformly integrable (UI) $\Leftrightarrow$ $\lim_{K\to\infty}\sup_{n}\mathbb E\big[|X_n|1\{|X_n|>K\}\big]=0$.
+>
+>Since we have $|e_{Bt}|\le 2B$ a.s., by putting $K>2B$, $\{e_{Bt}\}$ is UI.
+>$\because\mathbb E [|e_{Bt}| 1\{|e_{Bt}|>K\}]=0$ for every $t$ and for all $K>2B$.
+
+>Weak convergence + UI => convergence of expectations
+>Reference: 
+>1. Billingsley (1999), _Convergence of Probability Measures_, 2nd ed. Theorem 5.4 (p. 34 근처)
+>2. van der Vaart (1998), _Asymptotic Statistics_ Lemma 2.20
+>3. Chung (2001), _A Course in Probability Theory_ Vitali convergence theorem
+
+We want to show that $var[e_t]<\infty$. Suppose not. Then $\sigma_B\to\infty$ as $B\to\infty$, 
+
+>**Claim.** If $var[e_t]=\infty$, then $\sigma_B\to\infty$ as $B\to\infty$.
+>**pf)** Write $X_B\equiv e_t1\{|e_t|\le B\}$, $m_B\equiv \mathbb E[X_B|\mathcal F_{t-1}]$, $e_{Bt}\equiv X_B-m_B$.
+>Then
+>$$\sigma_B^2=\mathbb E[e_{Bt}^2]=\mathbb E\bigg[(X_B-m_B)^2\bigg]=\mathbb E[X_B^2]-\mathbb E[m_B^2]\tag{a}$$
+> >$\mathbb E[X_Bm_B]=\mathbb E\bigg[\mathbb E[X_B\mathbb E[X_B|\mathcal F_{t-1}]|\mathcal F_{t-1}]\bigg]=\mathbb E\bigg[\mathbb E[X_B|\mathcal F_{t-1}]\cdot \mathbb E[X_B|\mathcal F_{t-1}]\bigg]=E[m_B^2]$.
+> 
+>Because $X_B^2=e_t^21\{|e_t|\le B\}\uparrow e_t^2$ as $B\to\infty$,
+>$$\mathbb E[X_B^2]\uparrow \mathbb E[e_t^2]=\infty$$
+>by MCT.
+>Now we show that $var[e_{Bt}]\to\infty$ as $B\to\infty$.
+>1. Observe that for any $\epsilon>0$. we can find $B$ large enough to satisfy $$|m_B|=|\mathbb E[X_B|\mathcal F_{t-1}]|\le \epsilon$$
+>because $m_B\to0$ as $B\to\infty$.
+>2. Because $\mathbb E[X_B] \to 0$ as $B\to\infty$, and $\mathbb E[X_B^2]\to\infty$, as $B\to\infty$, for any given $\epsilon>0$ we can choose $B$ large enough that satisfies both $$(\mathbb E[X_B])^2\le \epsilon ;\quad \mathbb E[X_B^2]\ge B+\epsilon$$
+>Then combining with (a), we have $$\sigma_B^2\ge B+\epsilon-\epsilon=B\to\infty$$                                                                                                                                 $\blacksquare$
+
+
+so there will be some $B$ sufficiently large such that the right-side of (5) exceeds the right-side of (4). This is a contradiction. We deduce that $var[e_t]<\infty$.
+
+Examining (2), we see that since $var[S_n]\to\Omega<\infty$ and $var[S_n^e]=var[e_t]<\infty$ then $var[Z_1-Z_{n+1}]/n<\infty$. 
+
+>By (2), $S_n-S_n^e=\frac{Z_1-Z_{n+1}}{\sqrt n}$. Hence, 
+>$$var\bigg(\frac{Z_1-Z_{n+1}}{\sqrt n}\bigg)=var(S_n-S_n^e)\le 2var[S_n]+2var[S_n^e]$$
+>by the quadtratic inequality.
+
+Since $Z_t$ is stationary, we deduce that $var[Z_1-Z_{n+1}]<\infty$. Equation (2) implies $var[e_t]=var[S_n^e]=var[S_n]+o(1)\to\Omega$. We deduce that $var[e_t]=\Omega$ as claimed. 
+                                                                    $Q.E.D.$ 
+
+
+
+
+
+
+
+

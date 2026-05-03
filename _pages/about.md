@@ -2,7 +2,7 @@
 layout: about
 title: ABOUT
 permalink: /
-subtitle: Ph.D. candidate, <a href="PLACEHOLDER_SNU_ECON_URL" target="_blank">Department of Economics, Seoul National University</a>
+subtitle: Ph.D. candidate, <a href="https://econ.snu.ac.kr/" target="_blank">Department of Economics, Seoul National University</a>
 
 profile:
   align: right
@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economics at Seoul National University, supervised by <a href=”PLACEHOLDER_JAY_LEE_URL” target=”_blank”>Associate Professor Seojeong (Jay) Lee</a>.
+My name is Eunkyu Seong, pronounced as "Ng-Q Sung" (성은규). I am a Ph.D. candidate in Economics at Seoul National University, supervised by Associate Professor <a href=”https://sites.google.com/site/misspecifiedjay” target=”_blank”>Seojeong (Jay) Lee</a>.
 
 You can find my full CV here: [Web CV](/cv/) · [PDF](/assets/pdf/cv_eunkyu_seong.pdf).
 
