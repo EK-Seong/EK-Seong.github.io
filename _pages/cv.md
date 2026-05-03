@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 4
 cv_pdf: cv_eunkyu_seong.pdf  # you can also use external links here
-description: This is the curriculum vitae of Eunkyu Seong.
+description:
 toc:
   sidebar: left
 ---
