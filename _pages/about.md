@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-My name is Eunkyu Seong, pronounced as "Ng-Q Sung" (성은규). I am a Ph.D. candidate in Economics at Seoul National University, supervised by Associate Professor <a href=”https://sites.google.com/site/misspecifiedjay” target=”_blank”>Seojeong (Jay) Lee</a>.
+My first name is Eunkyu, pronounced as "Ng-Q", and my surname is Seong ("Sung") (성은규). I am a Ph.D. candidate in Economics at Seoul National University, supervised by Associate Professor <a href="https://sites.google.com/site/misspecifiedjay" target="_blank">Seojeong (Jay) Lee</a>.
 
 You can find my full CV here: [Web CV](/cv/) · [PDF](/assets/pdf/cv_eunkyu_seong.pdf).
 
