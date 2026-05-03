@@ -52,6 +52,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
+          section: "News",},{id: "news-2026-korea-s-allied-economic-associations-annual-meeting-program-chungang-university-korea",
+          title: '2026 Korea’s Allied Economic Associations Annual Meeting [program], Chungang University, Korea',
+          description: "",
+          section: "News",},{id: "news-the-20th-international-symposium-on-econometric-theory-and-applications-seta-2026-website-university-of-tokyo-tokyo-scheduled-in-june",
+          title: 'The 20th International Symposium on Econometric Theory and Applications (SETA 2026) [website], University...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
