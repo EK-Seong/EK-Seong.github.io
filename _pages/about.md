@@ -18,16 +18,18 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economics at Seoul National University. I study econometric methods for dynamic causal inference with time series data. My research focuses on IV-based approaches in time-series and macroeconometric setting, with particular emphasis on estimating for impulse response function via local projections.
+I am Eunkyu Seong (“Un-kyoo Sung”; 성은규), a Ph.D. candidate in Economics at Seoul National University. 
 
 You can find my full CV here: [Web CV](/cv/) · [PDF](/assets/pdf/cv_eunkyu_seong.pdf).
 
+I study econometric methods for dynamic causal inference with time series data, with particular interest in instrumental variable estimation.
 
 **Research Interests**
-- Dynamic causal inference
 - Time series econometrics
+- Dynamic causal inference
+- Instrumental variables
 
-**Research**
+**Publications**
 {% include selected_papers.liquid %}
 
 
