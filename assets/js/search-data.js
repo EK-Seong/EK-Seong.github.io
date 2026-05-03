@@ -41,17 +41,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/jof-bok-inflation/";
         
       },
-    },{id: "post-clt-for-a-correlated-sequence",
-      
-        title: "CLT for a correlated sequence",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/clt_correlated/";
-        
-      },
     },{id: "news-econometrics-workshop-seoul-national-university-korea",
           title: 'Econometrics Workshop, Seoul National University, Korea',
           description: "",
