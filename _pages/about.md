@@ -9,11 +9,11 @@ profile:
   image: IMG_9301.JPG
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 319, Bldg 223</p>
+    <p>Room 228, Bldg 16</p>
     <p>1 Gwanak-ro, Gwanak-gu</p>
     <p>Seoul 08826, Republic of Korea</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
