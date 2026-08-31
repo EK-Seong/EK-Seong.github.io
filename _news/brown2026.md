@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-SNU Econometrics Brown Bag <a href="https://sites.google.com/view/snu-metrics/" target="_blank">[website]</a>, Seoul National University, Seoul (Scheduled in June)
+SNU Econometrics Brown Bag <a href="https://sites.google.com/view/snu-metrics/" target="_blank">[website]</a>, Seoul National University, Seoul
